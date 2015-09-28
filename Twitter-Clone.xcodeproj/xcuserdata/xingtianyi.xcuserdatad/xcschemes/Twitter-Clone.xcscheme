@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7168C05D1BB8F00300047DAA"
+               BuildableName = "Twitter-Clone.app"
+               BlueprintName = "Twitter-Clone"
+               ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7168C0711BB8F00300047DAA"
+               BuildableName = "Twitter-CloneTests.xctest"
+               BlueprintName = "Twitter-CloneTests"
+               ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7168C07C1BB8F00300047DAA"
+               BuildableName = "Twitter-CloneUITests.xctest"
+               BlueprintName = "Twitter-CloneUITests"
+               ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7168C05D1BB8F00300047DAA"
+            BuildableName = "Twitter-Clone.app"
+            BlueprintName = "Twitter-Clone"
+            ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7168C05D1BB8F00300047DAA"
+            BuildableName = "Twitter-Clone.app"
+            BlueprintName = "Twitter-Clone"
+            ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7168C05D1BB8F00300047DAA"
+            BuildableName = "Twitter-Clone.app"
+            BlueprintName = "Twitter-Clone"
+            ReferencedContainer = "container:Twitter-Clone.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
